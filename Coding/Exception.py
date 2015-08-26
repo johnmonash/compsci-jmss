@@ -12,7 +12,7 @@ def foo():
     raise UserIsADoofusException("can't spell")
 
 
-try:
+try: #adding a comment
     foo()
     i = int(input("first number"))
     j = int(input("second number"))
